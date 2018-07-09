@@ -39,4 +39,17 @@ describe('Linked lists', () => {
     expect(actual).toEqual(expected);
     done();
   });
+
+  it('remove', (done) => {
+    let newList = new List;
+    newList.append(1);
+    newList.append(2);
+    newList.append(3);
+    newList.append(4);
+    newList.remove(3);
+    
+    let secondNode = newList.head.next;
+    expect(secondNode.next.value).toEqual(4);
+    done();
+  });
 });
