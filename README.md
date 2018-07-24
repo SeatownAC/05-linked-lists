@@ -1,13 +1,9 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Linked List Data Structure
 ====
 
-## To Submit this Assignment
-  * Do all your work in a public repository called `data-structures-and-algorithms`
-  * write all of your code in a directory named `linked-lists`
-  * push to your repository
-  * submit a pull request to this repository
-  * submit a link to your PR in canvas
-  * write a question and observation on canvas
+(https://travis-ci.com/SeatownAC/05-linked-lists.svg?branch=master)
+
+
 
 ## Requirements  
 #### Configuration  
@@ -23,17 +19,8 @@
   * **lib/** -- directory for holding your programs helper modules
   * **__tests__/** -- directory for holding your programs unit and integration tests
 
-#### Testing  
-  * write at least three test assertions for each method of the Singly Linked List Data Structure
-  * organize your tests into appropriate describe/it blocks for test output readability
 
-####  Documentation  
-  * in your README, write documentation for you data structures
-  * your documentation should includes code block useage examples
-  * provide instructions for:
-    * installing and using your data structure
-    * accessing each method
-    * running your tests
+
 
 #### Feature Tasks  
 * implement a Singly Linked List (SLL) data structure
